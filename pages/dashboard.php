@@ -154,7 +154,7 @@ if ($page == 'home') {
     include 'pages/listproduct.php';
 
 } elseif ($page == 'customer') {
-    include 'pages/listcustomer.php';
+    include 'pages/list-customer.php';
 
 } elseif ($page == 'profile') {
     echo "<h2>My Profile</h2><p>Profile content here.</p>";

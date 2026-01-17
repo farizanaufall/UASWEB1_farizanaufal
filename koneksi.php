@@ -1,10 +1,7 @@
 <?php
-$host = "localhost";
-$user = "root";
-$pass = ""; // default XAMPP kosong
-$db   = "uas_penjualan";
 
-$koneksi = mysqli_connect($host, $user, $pass, $db);
+
+$koneksi = mysqli_connect("localhost","root","","uas_penjualan");
 
 if (!$koneksi) {
     die("Koneksi gagal: " . mysqli_connect_error());
